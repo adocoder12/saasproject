@@ -11,6 +11,8 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+#add bootstarp lybrary for style
+gem 'ootstarp-sass','3.3.1'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
